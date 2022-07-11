@@ -54,6 +54,7 @@ namespace eClerx.Question2.Kishore
                     {
                         dv.RowFilter = "select * from Customer order by CustomerCity DESC";
                     }
+                     GridCustomer.DataSource = dv;
                 }
             } 
         }
